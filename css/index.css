@@ -1,1 +1,217 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+.cont {
+  margin-left: 10%;
+  width: 100%;
+  justify-self: center;
+}
+@media (max-device-width: 500px) {
+  .cont {
+    width: 500px;
+    height: auto;
+  }
+}
+.cont header {
+  width: 75%;
+  margin: 2%;
+  height: auto;
+  background: darkgrey;
+  Border: 2px solid grey;
+}
+.cont header img {
+  box-sizing: border-box;
+  height: 15%;
+  width: 10%;
+  border: 2px solid Darkblue;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.cont header h1 {
+  color: Darkblue;
+  font-family: 'Bahianita', cursive;
+  font-size: 3rem;
+  margin: 2%;
+}
+.cont header Nav {
+  Display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.cont .s1 {
+  Display: flex;
+  width: 75%;
+  margin: 2%;
+  background: darkgrey;
+  Border: 2px solid grey;
+  padding: 2%;
+  text-align: center;
+}
+.cont .s1 h2 {
+  color: Darkblue;
+  font-family: 'Bahianita', cursive;
+  font-size: 3rem;
+  width: 50%;
+  text-align: center;
+}
+.cont .s1 div {
+  width: 50%;
+  margin-left: 10%;
+}
+.cont .s1 div p {
+  width: 45%;
+  padding: 1%;
+  box-sizing: border-box;
+}
+.cont .s1 div li {
+  padding-top: 2%;
+  width: 50%;
+  text-align: center;
+}
+.cont .s2 {
+  background: darkgrey;
+  Border: 2px solid grey;
+  width: 75%;
+  margin: 2%;
+  text-align: center;
+  line-height: 200%;
+}
+.cont .s2 strong {
+  color: Darkblue;
+  font-family: 'Bahianita', cursive;
+  font-size: 3rem;
+}
