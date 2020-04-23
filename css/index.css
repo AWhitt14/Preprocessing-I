@@ -140,7 +140,6 @@ body {
   box-sizing: border-box;
   padding-left: 15%;
   width: 100%;
-  justify-self: center;
   color: white;
 }
 @media (max-device-width: 500px) {
@@ -196,19 +195,16 @@ body {
   padding: 2%;
   text-align: center;
 }
-.cont .s1 h2 {
+.cont .s1 div {
+  width: 40%;
+  margin-left: 10%;
+}
+.cont .s1 div h2 {
   color: Darkblue;
   font-family: 'Bahianita', cursive;
   font-size: 3rem;
-  width: 50%;
-  text-align: center;
-}
-.cont .s1 div {
-  width: 50%;
-  margin-left: 10%;
 }
 .cont .s1 div p {
-  width: 45%;
   padding: 1%;
   box-sizing: border-box;
 }
@@ -217,21 +213,37 @@ body {
     width: 50%;
   }
 }
-.cont .s1 div p li {
-  padding-top: 2%;
-  width: 50%;
-  text-align: center;
+.cont .work {
+  width: 75%;
+  margin: 2%;
+  background: #293a80;
+  Border: 2px solid #537ec5;
 }
-.cont .s1 .s2 {
+.cont .work h2 {
+  color: Darkblue;
+  font-family: 'Bahianita', cursive;
+  font-size: 3rem;
+}
+.cont .work Table {
+  margin: 1%;
+  margin-left: 5%;
+  width: 90%;
+  border: 1px solid #537ec5;
+}
+.cont .work Table tr {
+  padding-top: 5%;
+}
+.cont .work Table Th {
+  border-bottom: 1px solid #537ec5;
+  border-left: 1px dashed #537ec5;
+}
+.cont .work Table td {
+  border-bottom: 1px solid #537ec5;
+  border-left: 1px dashed #537ec5;
+}
+.cont .s2 {
   background: #293a80;
   Border: 2px solid #537ec5;
   width: 75%;
   margin: 2%;
-  text-align: center;
-  line-height: 200%;
-}
-.cont .s1 .s2 strong {
-  color: Darkblue;
-  font-family: 'Bahianita', cursive;
-  font-size: 3rem;
 }
