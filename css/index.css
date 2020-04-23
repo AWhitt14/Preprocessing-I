@@ -134,11 +134,14 @@ html,
 body {
   height: 100%;
   text-align: center;
+  background: #010038;
 }
 .cont {
-  margin-left: 10%;
+  box-sizing: border-box;
+  padding-left: 15%;
   width: 100%;
   justify-self: center;
+  color: white;
 }
 @media (max-device-width: 500px) {
   .cont {
@@ -150,16 +153,17 @@ body {
   width: 75%;
   margin: 2%;
   height: auto;
-  background: darkgrey;
-  Border: 2px solid grey;
+  background: #293a80;
+  Border: 2px solid #537ec5;
 }
 .cont header img {
   box-sizing: border-box;
   height: 15%;
   width: 10%;
-  border: 2px solid Darkblue;
+  border: 2px solid #f39422;
   margin-top: 2%;
   margin-left: 2%;
+  padding: 0.5%;
 }
 .cont header h1 {
   color: Darkblue;
@@ -172,12 +176,23 @@ body {
   justify-content: space-between;
   padding: 2%;
 }
+.cont header Nav a {
+  color: #f39422;
+  border: 1px solid #f39422;
+  padding: 6px;
+  border-radius: 25%;
+}
+@media (max-device-width: 500px) {
+  .cont header Nav a {
+    padding: 1px;
+  }
+}
 .cont .s1 {
   Display: flex;
   width: 75%;
   margin: 2%;
-  background: darkgrey;
-  Border: 2px solid grey;
+  background: #293a80;
+  Border: 2px solid #537ec5;
   padding: 2%;
   text-align: center;
 }
@@ -197,20 +212,25 @@ body {
   padding: 1%;
   box-sizing: border-box;
 }
-.cont .s1 div li {
+@media (max-device-width: 500px) {
+  .cont .s1 div p {
+    width: 50%;
+  }
+}
+.cont .s1 div p li {
   padding-top: 2%;
   width: 50%;
   text-align: center;
 }
-.cont .s2 {
-  background: darkgrey;
-  Border: 2px solid grey;
+.cont .s1 .s2 {
+  background: #293a80;
+  Border: 2px solid #537ec5;
   width: 75%;
   margin: 2%;
   text-align: center;
   line-height: 200%;
 }
-.cont .s2 strong {
+.cont .s1 .s2 strong {
   color: Darkblue;
   font-family: 'Bahianita', cursive;
   font-size: 3rem;
